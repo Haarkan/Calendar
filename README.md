@@ -2,7 +2,7 @@
 Test technique - Axel Houlès
 
 ## Vidéo de démonstation
-Une vidéo de démonstration de l'application est disponible à l'adresse suivante : https://www.youtube.com/watch?v=ifTWPj2-IiE
+Une vidéo de démonstration de l'application est disponible à l'adresse suivante : https://youtu.be/4SCkbQve4GQ
 
 ## Télécharger l'APK
 Si vous souhaitez installer l'APK sur votre smartphone ou emulateur, vous pouvez la télécharger ici : https://github.com/Haarkan/Calendar/releases/tag/1.0
