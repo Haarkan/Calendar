@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grid_view_items"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.houles.pcsoftcalendar.GridViewItems">
+
+    <TextView
+        android:id="@+id/dayNumberView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="DAY"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+
+        />
+
+</RelativeLayout>

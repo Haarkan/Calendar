@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/splashscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="249dp"
+        android:layout_gravity="center"
+
+        android:src="@drawable/ic_logo_pcsoft_c268304f_" />
+
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textAlignment="center"
+    android:textSize="22dp"
+    android:text="Test technique"
+    android:textColor="@color/colorDark"
+    />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:text="Candidature de Axel Houlès"
+        android:textColor="@color/colorDark"
+        />
+
+</LinearLayout>
