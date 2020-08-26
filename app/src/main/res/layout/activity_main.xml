@@ -38,12 +38,77 @@
         android:layout_below="@id/title_layout"
 
         />
+    <LinearLayout
+        android:id="@+id/days_title"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/separator"
+       >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lu."
+            android:textSize="30dp"
+            android:layout_weight = "1"
+            android:textColor="#000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ma."
+            android:textSize="30dp"
+            android:layout_weight = "1"
+            android:textColor="#000"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Me."
+            android:textSize="30dp"
+            android:layout_weight = "1"
+            android:textColor="#000"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Je."
+            android:textSize="30dp"
+            android:layout_weight = "1"
+            android:textColor="#000"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ve."
+            android:textSize="30dp"
+            android:layout_weight = "1"
+            android:textColor="#000"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sa."
+            android:layout_weight = "1"
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Di."
+            android:layout_weight = "1"
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
     <GridView
         android:id="@+id/grid_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:numColumns="7"
-        android:layout_below="@id/separator"
+        android:layout_below="@id/days_title"
         android:listSelector="@color/colorYellow"
 
         android:choiceMode="multipleChoice"/>
